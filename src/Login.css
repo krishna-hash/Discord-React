@@ -1,0 +1,20 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.login > .button {
+  background-color: #738adb;
+  width: 300px;
+  font-size: 800;
+  color: #ffff;
+  transition: all 0.3s ease;
+  margin-bottom: 120px;
+}
+.login > .button:hover {
+  background-color: black !important;
+
+  color: #738adb;
+}

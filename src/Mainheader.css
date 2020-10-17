@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  padding: 10px;
+  color: grey;
+  align-items: center;
+  justify-content: space-between;
+}
+.hash {
+  font-size: 25px;
+  align-items: center;
+  padding: 8px;
+}
+
+.header_left > h3 {
+  font-size: larger;
+  align-items: center;
+}
+
+.header_right {
+  display: flex;
+  padding: 10px;
+  flex: 0.5;
+  justify-content: space-between;
+}
+.header_right > .MuiSvgIcon-root {
+  padding: 3px;
+  cursor: pointer;
+  font-size: 30px;
+}
+.header_input {
+  min-width: 120px;
+  display: flex;
+}
+.header_input [type="text"] {
+  color: #fff;
+}
+
+.header_right > .MuiSvgIcon-root :hover {
+  color: #fff;
+}
